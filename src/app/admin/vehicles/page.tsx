@@ -3,6 +3,8 @@ import { VehiclesClient } from "@/components/admin/vehicles-client"
 import type { Vehicle } from "@/types"
 import type { Metadata } from "next"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "Vehicles | Admin",
 }

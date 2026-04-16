@@ -7,6 +7,8 @@ import Link from "next/link"
 import type { Metadata } from "next"
 import type { Booking } from "@/types"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "Admin Dashboard | JustzRent",
 }

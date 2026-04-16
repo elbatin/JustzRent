@@ -8,6 +8,8 @@ import { HeroSearchForm } from "@/components/hero-search-form"
 import { createClient } from "@/lib/supabase/server"
 import type { Vehicle } from "@/types"
 
+export const dynamic = "force-dynamic"
+
 async function getFeaturedVehicles(): Promise<Vehicle[]> {
   try {
     const supabase = await createClient()

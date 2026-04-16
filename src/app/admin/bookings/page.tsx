@@ -5,6 +5,8 @@ import { BookingStatusButtons } from "@/components/admin/booking-status-buttons"
 import type { Booking } from "@/types"
 import type { Metadata } from "next"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "Bookings | Admin",
 }

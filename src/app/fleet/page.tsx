@@ -5,6 +5,8 @@ import { VehicleFilters } from "@/components/vehicle-filters"
 import type { Vehicle } from "@/types"
 import type { Metadata } from "next"
 
+export const dynamic = "force-dynamic"
+
 export const metadata: Metadata = {
   title: "Our Fleet",
   description: "Browse our full range of rental vehicles — Economy, SUV, Luxury, and Minivan.",
