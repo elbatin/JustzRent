@@ -24,9 +24,7 @@ export default async function AdminLayout({ children }: AdminLayoutProps) {
 
   return (
     <div className="min-h-screen flex">
-      {/* Sidebar */}
       <aside className="w-56 flex-shrink-0 bg-card border-r border-border/50 flex flex-col">
-        {/* Logo */}
         <div className="p-5 border-b border-border/50">
           <Link href="/admin" className="font-bold text-lg">
             Justz<span className="text-primary">Rent</span>
@@ -36,7 +34,6 @@ export default async function AdminLayout({ children }: AdminLayoutProps) {
           </Link>
         </div>
 
-        {/* Nav */}
         <nav className="flex-1 p-3 space-y-1">
           {navItems.map((item) => (
             <Link
@@ -50,7 +47,6 @@ export default async function AdminLayout({ children }: AdminLayoutProps) {
           ))}
         </nav>
 
-        {/* Footer */}
         <div className="p-3 border-t border-border/50 space-y-1">
           <Link
             href="/"
@@ -78,9 +74,7 @@ export default async function AdminLayout({ children }: AdminLayoutProps) {
         </div>
       </aside>
 
-      {/* Main */}
       <div className="flex-1 flex flex-col overflow-hidden">
-        {/* Top bar */}
         <header className="h-14 border-b border-border/50 bg-background flex items-center justify-between px-6">
           <h2 className="text-sm font-medium text-muted-foreground">Management Console</h2>
           <ThemeToggle />
