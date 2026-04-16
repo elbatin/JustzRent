@@ -91,6 +91,19 @@ export default function AdminLoginPage() {
             </Button>
           </form>
         </div>
+
+        {/* Demo credentials */}
+        <div className="mt-4 rounded-xl border border-primary/20 bg-primary/5 px-4 py-3">
+          <p className="text-xs font-semibold text-primary uppercase tracking-wide mb-1.5">
+            Demo Access
+          </p>
+          <div className="flex items-center justify-between">
+            <span className="text-xs text-muted-foreground">Password</span>
+            <code className="text-xs font-mono bg-muted px-2 py-0.5 rounded-md text-foreground select-all">
+              justzrent2024
+            </code>
+          </div>
+        </div>
       </div>
     </div>
   )
